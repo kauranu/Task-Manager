@@ -1,47 +1,51 @@
-# ✅ Task Manager (GUI + CLI)
+# ✅ Task Manager App (GUI + CLI) with Python & CustomTkinter
 
-A simple and interactive Task Manager app built with Python and `customtkinter`. It allows users to:
+A simple yet elegant **Task Manager** built using **Python** and **CustomTkinter**, offering both **Graphical User Interface (GUI)** and **Command Line Interface (CLI)** modes. Manage your daily tasks with options to add, update, complete, and delete tasks — all with real-time JSON file persistence.
 
-- Add, update, delete tasks
-- Mark tasks as completed
-- View all tasks with status
-- Use both GUI and CLI modes
+---
 
-## 💻 Technologies Used
+## 🌟 Features
 
-- Python
-- CustomTkinter
-- JSON for data storage
+### ✅ GUI Mode (using `customtkinter`)
+- 📋 Add, update, delete, and mark tasks as completed
+- 🖥️ Modern dark-themed UI using CustomTkinter
+- 💾 Tasks are saved in `tasks.json` and persist across sessions
+- 🔘 Interactive task selection with input dialogs
+- 🧠 Lightweight and easy to use
 
-## 🚀 Features
+### 🖱️ CLI Mode
+- Terminal-based task manager
+- Menu-driven options for task operations
+- Suitable for quick and offline usage
+- Beginner-friendly Python scripting
 
-### ✅ GUI Mode
-- Modern and clean design using `customtkinter`
-- Color-coded buttons and input dialogs
-- Task status indicator with icons
+---
 
-# 📟 CLI Mode
-- Simple and interactive command-line interface
-- Allows adding, deleting, updating, and marking tasks
+## 📸 GUI Preview
 
-## 🛠️ Setup Instructions
-   - Clone this repo:
-     ```bash
-     - git clone https://github.com/kauranu/task-manager.git
-     -' cd task-manager'
-
-## Requirements
-- Python 3.x
-- `customtkinter`
-
-# Choose mode:
-   - Type gui for graphical mode
-   - Type cli for command line interface 
-
-# GUI Preview
-![image](https://github.com/user-attachments/assets/406d3173-57bf-4f76-b0de-4d7392f8ffc1)
-![image](https://github.com/user-attachments/assets/c1dc6129-3ef6-4f19-9b38-3ed2c0e6b958)
-![image](https://github.com/user-attachments/assets/dccaafc7-7e2d-41ad-b0f9-ed550a3e7d6d)
+![image](https://github.com/user-attachments/assets/c3c3a50e-dad2-40fa-a09b-1a66fe4680f8)
+![image](https://github.com/user-attachments/assets/ee448dcc-2bfa-4c3e-941e-0c788ee20ea5)
 
 
 
+---
+
+## 🛠️ Technologies Used
+
+| Stack | Purpose |
+|-------|---------|
+| `Python 3.x` | Core programming language |
+| `CustomTkinter` | For modern GUI |
+| `JSON` | To store and retrieve task data |
+| `OOP` | Class-based structure for maintainability |
+
+---
+
+## 🚀 How to Run
+
+### Prerequisites:
+- Python 3.8+
+- Install CustomTkinter:
+
+```bash
+pip install customtkinter
