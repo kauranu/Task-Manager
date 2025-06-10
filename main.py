@@ -44,6 +44,7 @@ class TaskManagerApp(ctk.CTk):
         self.task_entry = ctk.CTkEntry(self, placeholder_text="Enter new task...", font=("Arial", 10), fg_color="#1E1E1E", text_color="white", border_color="#D6C7B9", border_width=2)
         self.task_entry.pack(pady=10)
 
+        # Buttons
         button_frame = ctk.CTkFrame(self)
         button_frame.pack(pady=10)
         button_width = 100
